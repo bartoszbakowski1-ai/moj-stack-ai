@@ -2,7 +2,7 @@
 
 Supabase to platforma backendowa z bazą Postgres, logowaniem użytkowników, storage i funkcjami brzegowymi. Claude czyta i zmienia bazę danych, na przykład listę kontaktów albo leadów.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 25 USD/mies. (Pro) (stan na listopad 2026)
@@ -28,7 +28,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Supabase do Claude Code.
-Supabase jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Supabase jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --scope project --transport http supabase "https://mcp.supabase.com/mcp"
 Adres serwera MCP: https://mcp.supabase.com/mcp
 Dokumentacja: https://supabase.com/docs/guides/getting-started/mcp

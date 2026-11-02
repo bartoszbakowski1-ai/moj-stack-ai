@@ -2,7 +2,7 @@
 
 Google Drive to chmura Google na pliki, dokumenty, arkusze i prezentacje, do której Claude może zajrzeć, żeby wyszukiwać i czytać Twoje pliki. Claude szuka i czyta dokumenty, arkusze i pliki z Dysku Google.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 8,99 zł/mies. (Google One Basic 100 GB, cennik widoczny dla Polski) (stan na listopad 2026)
@@ -26,7 +26,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Google Drive do Claude Code.
-Google Drive jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Google Drive jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Adres serwera MCP: https://drivemcp.googleapis.com/mcp/v1
 Dokumentacja: https://developers.google.com/workspace/drive/api/guides/configure-mcp-server
 Nie wpisuj kluczy ani haseł do plików w repozytorium. Gdy potrzebujesz klucza, powiedz mi, gdzie go wygenerować.

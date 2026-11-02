@@ -2,7 +2,7 @@
 
 Firecrawl to usługa do wyszukiwania, scrapingu i crawlowania stron internetowych z wynikiem gotowym dla modeli AI. Claude pobiera treść dowolnej strony internetowej w czystym formacie.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 19 USD/mies. (Hobby, 5000 kredytów) (stan na listopad 2026)
@@ -28,7 +28,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Firecrawl do Claude Code.
-Firecrawl jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Firecrawl jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http firecrawl https://mcp.firecrawl.dev/v2/mcp-oauth
 Adres serwera MCP: https://mcp.firecrawl.dev/v2/mcp-oauth
 Dokumentacja: https://docs.firecrawl.dev/mcp-server

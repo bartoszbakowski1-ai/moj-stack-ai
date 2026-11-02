@@ -2,7 +2,7 @@
 
 Netlify to platforma do hostowania i wdrażania stron oraz aplikacji webowych. Claude wdraża i sprawdza strony hostowane na Netlify.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: logowanie kontem Netlify w przeglądarce (OAuth niepotwierdzone)
 - Darmowy plan: tak
 - Płatny plan od: 9 USD/mies. (Personal) (stan na listopad 2026)
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Netlify do Claude Code.
-Netlify jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Netlify jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http netlify https://netlify-mcp.netlify.app/mcp
 Adres serwera MCP: https://netlify-mcp.netlify.app/mcp
 Dokumentacja: https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/

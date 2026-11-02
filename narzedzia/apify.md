@@ -2,7 +2,7 @@
 
 Platforma z tysiącami gotowych scraperów i automatyzacji (Actors) do pobierania danych z internetu, w tym z mediów społecznościowych i map. Claude uruchamia gotowe scrapery, na przykład do Google Maps albo Instagrama.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 19 USD/mies. (Starter; 17 USD/mies. przy rozliczeniu rocznym) (stan na listopad 2026)
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Apify do Claude Code.
-Apify jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Apify jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add apify "https://mcp.apify.com" -t http
 Adres serwera MCP: https://mcp.apify.com
 Dokumentacja: https://github.com/apify/apify-mcp-server

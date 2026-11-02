@@ -2,7 +2,7 @@
 
 Komunikator zespołowy, którego oficjalny serwer MCP pozwala Claude wyszukiwać wiadomości, kanały i pliki oraz wysyłać wiadomości. Claude czyta kanały, szuka wiadomości i pisze w Slacku.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 8,25 EUR/mies. za użytkownika (Pro, rozliczane miesięcznie; 6,75 EUR przy rocznym; cena w EUR wg wersji strony) (stan na listopad 2026)
@@ -13,7 +13,7 @@ Komunikator zespołowy, którego oficjalny serwer MCP pozwala Claude wyszukiwać
 
 1. Upewnij się, że admin workspace Slacka zatwierdził integrację MCP.
 2. Claude Desktop: Customize > Connectors > plus, znajdź Slack i dodaj go, potem dokończ OAuth do swojego workspace.
-3. claude.ai: dodaj Slack z katalogu konektorów (wpis Slack w katalogu Anthropic).
+3. claude.ai: dodaj Slack z katalogu connectorów (wpis Slack w katalogu Anthropic).
 4. Claude Code: wpisz /plugin install slack lub claude plugin install slack, serwer MCP skonfiguruje się automatycznie.
 5. Zaloguj się do Slacka w oknie OAuth, które pojawi się po załadowaniu wtyczki.
 
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Slack do Claude Code.
-Slack jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Slack jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude plugin install slack
 Adres serwera MCP: https://mcp.slack.com/mcp
 Dokumentacja: https://docs.slack.dev/ai/slack-mcp-server/connect-to-claude/

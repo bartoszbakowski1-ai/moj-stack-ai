@@ -2,7 +2,7 @@
 
 Canva to edytor graficzny online, a jego connector (Canva AI Connector) pozwala Claude wyszukiwać, tworzyć, edytować i eksportować projekty. Claude tworzy i edytuje projekty graficzne w Canvie.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 450 zł/rok (Canva Pro, cennik widoczny dla Polski) (stan na listopad 2026)
@@ -26,7 +26,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Canva do Claude Code.
-Canva jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Canva jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Adres serwera MCP: https://mcp.canva.com/mcp
 Dokumentacja: https://www.canva.com/help/connect-claude-to-canva/
 Nie wpisuj kluczy ani haseł do plików w repozytorium. Gdy potrzebujesz klucza, powiedz mi, gdzie go wygenerować.

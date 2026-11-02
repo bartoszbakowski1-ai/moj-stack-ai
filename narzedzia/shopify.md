@@ -2,7 +2,7 @@
 
 Shopify to platforma do tworzenia i prowadzenia sklepów internetowych. Claude zarządza produktami, zamówieniami i treściami sklepu.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: zatwierdzenie dostępu w panelu Shopify (OAuth niepotwierdzone)
 - Darmowy plan: okres próbny
 - Płatny plan od: 79 PLN/mies. (Basic, rozliczenie roczne; 109 PLN miesięcznie) (stan na listopad 2026)
@@ -24,7 +24,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Shopify do Claude Code.
-Shopify jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Shopify jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Adres serwera MCP: https://setup.shopify.com/mcp
 Dokumentacja: https://help.shopify.com/en/manual/ai-powered-tools/connecting-ai-tools/shopify-connector-for-claude
 Nie wpisuj kluczy ani haseł do plików w repozytorium. Gdy potrzebujesz klucza, powiedz mi, gdzie go wygenerować.

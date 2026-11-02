@@ -2,7 +2,7 @@
 
 Metricool to narzędzie do planowania postów i analityki w mediach społecznościowych, które z Claude pozwala planować publikacje i czytać statystyki. Claude planuje posty i czyta statystyki social mediów.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 16 EUR/mies. (Starter, 5 marek, rozliczenie roczne, ceny netto bez VAT) (stan na listopad 2026)
@@ -30,7 +30,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Metricool do Claude Code.
-Metricool jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Metricool jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http metricool https://ai.metricool.com/mcp
 Adres serwera MCP: https://ai.metricool.com/mcp
 Dokumentacja: https://help.metricool.com/how-to-connect-metricools-mcp-with-claude-0l84v

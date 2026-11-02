@@ -2,7 +2,7 @@
 
 Letterly to aplikacja do dyktowania i notatek głosowych, których treść Claude może przeszukiwać, przepisywać, tłumaczyć i tworzyć. Claude czyta Twoje notatki głosowe i robi z nich treści, na przykład newsletter.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Strona: https://letterly.app
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Letterly do Claude Code.
-Letterly jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Letterly jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http letterly https://mcp.letterly.app/mcp
 Adres serwera MCP: https://mcp.letterly.app/mcp
 Dokumentacja: https://letterly.app/mcp

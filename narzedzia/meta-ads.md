@@ -2,7 +2,7 @@
 
 Meta Ads to system reklamowy Facebooka i Instagrama, a oficjalny serwer MCP Meta (Meta Ads AI Connectors) pozwala Claude czytać raporty i zarządzać kampaniami. Claude czyta wyniki kampanii na Facebooku i Instagramie i pomaga je poprawiać.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: sprawdź na stronie producenta
 - Strona: https://www.facebook.com/business/ads
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Meta Ads do Claude Code.
-Meta Ads jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Meta Ads jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http --client-id <META_APP_ID> meta-ads https://mcp.facebook.com/ads
 Adres serwera MCP: https://mcp.facebook.com/ads
 Dokumentacja: https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-get-started.md

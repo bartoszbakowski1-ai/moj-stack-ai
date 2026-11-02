@@ -2,7 +2,7 @@
 
 Fireflies to asystent AI, który nagrywa, transkrybuje i streszcza spotkania online, a Claude może na ich podstawie wyciągać wnioski i zadania. Claude czyta transkrypcje i podsumowania spotkań.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 10 USD/mies. za użytkownika (Pro, rozliczenie roczne; 18 USD przy płatności miesięcznej) (stan na listopad 2026)
@@ -26,7 +26,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Fireflies do Claude Code.
-Fireflies jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Fireflies jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Adres serwera MCP: https://api.fireflies.ai/mcp
 Dokumentacja: https://docs.fireflies.ai/getting-started/mcp-configuration
 Nie wpisuj kluczy ani haseł do plików w repozytorium. Gdy potrzebujesz klucza, powiedz mi, gdzie go wygenerować.

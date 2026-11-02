@@ -2,7 +2,7 @@
 
 Platforma do automatyzacji workflow (self-hosted lub w chmurze), która udostępnia własną instancję jako serwer MCP dla Claude. Claude buduje, uruchamia i poprawia automatyzacje w n8n.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: okres próbny
 - Płatny plan od: 20 EUR/mies. (Cloud Starter, rozliczane rocznie); wersja self-hosted Community Edition dostępna na GitHub (cena niepotwierdzona na stronie cennika) (stan na listopad 2026)
@@ -31,7 +31,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz n8n do Claude Code.
-n8n jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+n8n jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http n8n https://<twoja-domena-n8n>/mcp-server/http
 Adres serwera MCP: https://<twoja-domena-n8n>/mcp-server/http
 Dokumentacja: https://docs.n8n.io/connect/connect-to-n8n-mcp-server

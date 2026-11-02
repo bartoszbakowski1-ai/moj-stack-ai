@@ -2,7 +2,7 @@
 
 Vercel to platforma hostingowa i wdrożeniowa dla stron i aplikacji, w tym projektów Next.js. Claude sprawdza wdrożenia, logi i błędy stron Next.js bez wchodzenia w panel.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 20 USD/mies. (Pro, na użytkownika) (stan na listopad 2026)
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Vercel do Claude Code.
-Vercel jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Vercel jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http vercel https://mcp.vercel.com
 Adres serwera MCP: https://mcp.vercel.com
 Dokumentacja: https://vercel.com/docs/agent-resources/vercel-mcp

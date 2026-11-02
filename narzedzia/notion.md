@@ -2,7 +2,7 @@
 
 Aplikacja do notatek, wiki, baz danych i projektów, z oficjalnym hostowanym serwerem MCP do wyszukiwania i edycji stron. Claude czyta i tworzy strony oraz bazy w Notion, na przykład bazę klientów.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 9,50 EUR/mies. za osobę (Plus; cena w EUR wg wersji strony, do 20% taniej przy rozliczeniu rocznym) (stan na listopad 2026)
@@ -29,7 +29,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Notion do Claude Code.
-Notion jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Notion jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http notion https://mcp.notion.com/mcp
 Adres serwera MCP: https://mcp.notion.com/mcp
 Dokumentacja: https://developers.notion.com/guides/mcp/get-started-with-mcp

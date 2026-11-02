@@ -2,7 +2,7 @@
 
 Riverside to platforma do nagrywania i edycji podcastów oraz wideo, a jej MCP pozwala Claude przeszukiwać transkrypcje, ciąć klipy i publikować w mediach społecznościowych. Nagrywasz rozmowy i podcasty, a transkrypcje dajesz Claude do dalszej pracy.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: okres próbny
 - Płatny plan od: 34 USD/mies. (Grow, rozliczenie roczne; 39 USD przy płatności miesięcznej) (stan na listopad 2026)
@@ -30,7 +30,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Riverside do Claude Code.
-Riverside jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Riverside jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http --scope user riverside https://mcp.riverside.com/mcp
 Adres serwera MCP: https://mcp.riverside.com/mcp
 Dokumentacja: https://support.riverside.com/hc/en-us/articles/37803607978141-Connect-to-Riverside-MCP

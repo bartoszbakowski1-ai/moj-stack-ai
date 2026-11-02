@@ -2,7 +2,7 @@
 
 Sanity to headless CMS do zarządzania strukturalną treścią, z edytorem Studio i zapytaniami GROQ. Claude dodaje i poprawia treści na stronie, na przykład wpisy bloga i hasła.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 15 USD/miejsce/mies. (Growth) (stan na listopad 2026)
@@ -28,7 +28,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Sanity do Claude Code.
-Sanity jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Sanity jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add Sanity -t http https://mcp.sanity.io --scope user
 Adres serwera MCP: https://mcp.sanity.io
 Dokumentacja: https://www.sanity.io/docs/ai/mcp-server

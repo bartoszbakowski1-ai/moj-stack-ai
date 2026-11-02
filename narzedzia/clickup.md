@@ -2,7 +2,7 @@
 
 Aplikacja do zarządzania zadaniami i projektami, z oficjalnym serwerem MCP do czytania i tworzenia zadań, list, dokumentów i komentarzy. Claude tworzy i aktualizuje zadania oraz listy w ClickUp.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 9 USD/mies. za użytkownika (Core, rozliczane rocznie; zwykła cena 12 USD) (stan na listopad 2026)
@@ -28,7 +28,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz ClickUp do Claude Code.
-ClickUp jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+ClickUp jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http clickup https://mcp.clickup.com/mcp
 Adres serwera MCP: https://mcp.clickup.com/mcp
 Dokumentacja: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server-1

@@ -2,7 +2,7 @@
 
 Webflow to wizualny kreator stron z wbudowanym CMS i hostingiem. Claude edytuje strony i kolekcje CMS w Webflow.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 15 USD/mies. (Basic, rozliczenie roczne) (stan na listopad 2026)
@@ -28,7 +28,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Webflow do Claude Code.
-Webflow jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Webflow jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http webflow https://mcp.webflow.com/mcp
 Adres serwera MCP: https://mcp.webflow.com/mcp
 Dokumentacja: https://developers.webflow.com/mcp/installing/claude-code

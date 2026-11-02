@@ -2,7 +2,7 @@
 
 WordPress to najpopularniejszy system do tworzenia stron i blogów, dostępny jako hosting WordPress.com lub własna instalacja. Claude zarządza wpisami i stronami w WordPressie.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: tak
 - Płatny plan od: 4 USD/mies. (Personal, rozliczenie roczne) (stan na listopad 2026)
@@ -28,7 +28,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz WordPress do Claude Code.
-WordPress jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+WordPress jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http wpcom-mcp https://public-api.wordpress.com/wpcom/v2/mcp/v1
 Adres serwera MCP: https://public-api.wordpress.com/wpcom/v2/mcp/v1
 Dokumentacja: https://developer.wordpress.com/docs/mcp/

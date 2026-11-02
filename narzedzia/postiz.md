@@ -2,7 +2,7 @@
 
 Postiz to open-source'owe narzędzie (AGPL-3.0) do planowania postów w wielu sieciach społecznościowych, dostępne jako chmura lub self-hosting. Claude planuje posty w social mediach przez otwartoźródłowy harmonogram.
 
-- Sposób: Konektor w Claude
+- Sposób: Connector w Claude
 - Logowanie: OAuth
 - Darmowy plan: okres próbny
 - Płatny plan od: 29 USD/mies. (Standard, 5 kanałów; 278 USD/rok) (stan na listopad 2026)
@@ -30,7 +30,7 @@ Skopiuj i wklej w Claude Code:
 
 ```text
 Podłącz Postiz do Claude Code.
-Postiz jest w katalogu konektorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Konektory). Jeśli w Claude Code, podłącz go jako serwer MCP.
+Postiz jest w katalogu connectorów Claude. Jeśli pracuję w aplikacji Claude, powiedz mi, gdzie kliknąć (Ustawienia, Connectors). Jeśli w Claude Code, podłącz go jako serwer MCP.
 Oficjalne polecenie: claude mcp add --transport http postiz https://mcp.postiz.com/mcp --header "Authorization: Bearer TWOJ_KLUCZ_API"
 Adres serwera MCP: https://mcp.postiz.com/mcp-oauth-claude
 Dokumentacja: https://docs.postiz.com/mcp/setup.md
